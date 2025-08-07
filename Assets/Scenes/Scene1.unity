@@ -194,6 +194,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66966111}
   m_CullTransparentMesh: 1
+--- !u!1 &129586889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 129586892}
+  - component: {fileID: 129586891}
+  - component: {fileID: 129586890}
+  m_Layer: 5
+  m_Name: Protag (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &129586890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129586889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 4061006292525408688, guid: 23c1b419080681343a3696d4b782af68, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &129586891
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129586889}
+  m_CullTransparentMesh: 1
+--- !u!224 &129586892
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129586889}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9200001, y: 0.9200001, z: 0.9200001}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 562282101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 873, y: -30.72}
+  m_SizeDelta: {x: 512, y: 768}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &367268306
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +434,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 938225219}
+  - {fileID: 129586892}
   - {fileID: 1789156961}
   m_Father: {fileID: 877483289}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -786,7 +862,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: d14d9679b8e509d448d5c88726ce7ea5, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -797,7 +873,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -807,7 +883,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -817,7 +893,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -827,7 +903,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -837,7 +913,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -848,7 +924,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -858,7 +934,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -868,7 +944,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -879,7 +955,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -889,7 +965,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -899,7 +975,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -909,7 +985,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -920,7 +996,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -930,7 +1006,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -941,7 +1017,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 7284355021254592848, guid: 0d76382a040aebc489e7a6a770561540, type: 3}
+    characterObject: {fileID: 1789156960}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -952,7 +1028,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -962,7 +1038,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -972,7 +1048,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 7284355021254592848, guid: 0d76382a040aebc489e7a6a770561540, type: 3}
+    characterObject: {fileID: 1789156960}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -984,7 +1060,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 7284355021254592848, guid: 0d76382a040aebc489e7a6a770561540, type: 3}
+    characterObject: {fileID: 1789156960}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -994,7 +1070,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 7284355021254592848, guid: 0d76382a040aebc489e7a6a770561540, type: 3}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -1004,7 +1080,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}
-    characterSprite: {fileID: 0}
+    characterObject: {fileID: 0}
     isChoice: 0
     choices: []
     nextLineIndices: 
@@ -1014,7 +1090,7 @@ MonoBehaviour:
   musicAudioSource: {fileID: 952031033}
   sfxAudioSource: {fileID: 0}
   backgroundImageUI: {fileID: 66966113}
-  characterImageUI: {fileID: 1789156962}
+  characterObject: {fileID: 0}
   typingSpeed: 0.03
   choicePanel: {fileID: 0}
   choiceButtons: []
@@ -1774,12 +1850,12 @@ GameObject:
   - component: {fileID: 1789156963}
   - component: {fileID: 1789156962}
   m_Layer: 5
-  m_Name: SecondChar
+  m_Name: Student Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1789156961
 RectTransform:
   m_ObjectHideFlags: 0

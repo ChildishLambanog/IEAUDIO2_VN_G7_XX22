@@ -11,7 +11,7 @@ public class DialogueLine
     public AudioClip sfxClip;
 
     public Sprite backgroundImage;   // for background
-    public Sprite characterSprite;   // for character
+    public GameObject characterObject;   // for character
 
     public bool isChoice; // Mark if this is a choice
     public string[] choices; // The choices shown to player

@@ -16,7 +16,10 @@ public class DialogueManager : MonoBehaviour
     public AudioSource sfxAudioSource;
 
     public Image backgroundImageUI;
-    public Image characterImageUI;
+    //public Image characterImageUI;
+
+    public GameObject characterObject;
+    private GameObject currentCharacterObject;
 
 
     public float typingSpeed = 0.05f; // Adjust speed here
@@ -121,15 +124,21 @@ public class DialogueManager : MonoBehaviour
             backgroundImageUI.sprite = line.backgroundImage;
         }
 
-        // Change character
-        if (line.characterSprite != null)
+
+        if (currentCharacterObject != null)
         {
-            characterImageUI.sprite = line.characterSprite;
-            characterImageUI.enabled = true;
+            currentCharacterObject.SetActive(false);
+        }
+
+        // Activate new character if defined
+        if (line.characterObject != null)
+        {
+            currentCharacterObject = line.characterObject;
+            currentCharacterObject.SetActive(true);
         }
         else
         {
-            characterImageUI.enabled = false;
+            currentCharacterObject.SetActive(false);
         }
     }
 
