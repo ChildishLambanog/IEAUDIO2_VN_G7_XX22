@@ -1294,6 +1294,7 @@ RectTransform:
   - {fileID: 1848088764}
   - {fileID: 129586892}
   - {fileID: 1789156961}
+  - {fileID: 954794058}
   - {fileID: 340933830}
   m_Father: {fileID: 877483289}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2591,8 +2592,427 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 76228315a2b456743bc25b7ef9f37b14, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
     characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: 'The voice is soft. Hesitant. I blink and turn my head toward the sound. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Julius
+    text: "\u201CYou\u2026 looked like you were going to\u2026 um\u2026 pass out
+      in the hall earlier.\u201D "
+    voiceClip: {fileID: 8300000, guid: d006f163054754b4987c135ff8baa93e, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Kairi
+    text: "\"\u2026I might have. What\u2019s it to you?\u201D "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Julius
+    text: "\u201C\u2026Nothing. Just\u2026 you, uh\u2026 mentioned games earlier.
+      In your intro.\u201D "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Julius
+    text: "\u201C\u2026Nothing. Just\u2026 you, uh\u2026 mentioned games earlier.
+      In your intro.\u201D "
+    voiceClip: {fileID: 8300000, guid: 877fdc400cf4cf745a6c69cbe840e44b, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "Wait\u2026 someone actually listened to that trainwreck? "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Kairi
+    text: "\u201COh. Yeah. I did. Why?\u201D "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Julius
+    text: "\u201C\u2026No reason. Just\u2026 not many people say that out loud here.\u201D "
+    voiceClip: {fileID: 8300000, guid: d2463df239818b546a1f6a86a2630326, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: 'He adjusts his oversized glasses, eyes darting away quickly, like he already
+      regrets talking. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "\u2026Huh. Weird. But\u2026 kinda relatable. "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: 'Before I can reply, the classroom door bangs open. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 954794059}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Louis
+    text: "\u201CYo! New girl! You survived the fair, huh?\u201D "
+    voiceClip: {fileID: 8300000, guid: c948a6b8882dae64890c2cd5cc873a13, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: "He strides in with that effortless grin, hands in his pockets, like the
+      noise and chaos outside can\u2019t touch him. "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Kairi
+    text: "\u201C\u2026Did I?\u201D "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Louis
+    text: "\u201CPfft. You look half dead. But hey, you didn\u2019t get lost. That\u2019s
+      a win in my book.\u201D "
+    voiceClip: {fileID: 8300000, guid: 905732aec44f16c42860156c046f38b5, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: 'He leans casually against the wall, scanning me with curious eyes that
+      feel a little too sharp for someone so friendly. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Louis
+    text: "\u201CSo? Which club caught your eye? Don\u2019t tell me you\u2019re skipping
+      out already.\u201D "
+    voiceClip: {fileID: 8300000, guid: 4809791eaf576e4468af8a9477575f3f, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: "I open my mouth, but before I can answer\u2026 "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CYo! Brought you a drink. You better not be causing trouble while
+      I was gone.\u201D "
+    voiceClip: {fileID: 8300000, guid: c30f4b0543e7c8f4f906c99b1719613f, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: 'He strolls in, familiar grin plastered on his face as he tosses me a can
+      of something cold. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Kairi
+    text: "\u201CThanks\u2026 I guess.\u201D"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CNo problem. Soooo\u2026 club fair intel? Found anything that doesn\u2019t
+      make you want to run for the hills?\u201D "
+    voiceClip: {fileID: 8300000, guid: 581e48af6c75a5e4289872d910d123cf, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CAlright, time\u2019s almost up. Most clubs finalize sign\u2011ups
+      tomorrow. Don\u2019t overthink it, just pick something before the deadline.\u201D "
+    voiceClip: {fileID: 8300000, guid: 0926e9474d95e2a4da5e7702f49c75b6, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Kairi
+    text: "\u201C\u2026Ugh. You make it sound so easy.\u201D "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CBecause it is easy. You just sign a paper and hope no one gives
+      you more work than you can handle.\u201D "
+    voiceClip: {fileID: 8300000, guid: e54780fd8465bed41be100c931f574cd, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: 'The bell rings, ending classes for the day. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 8300000, guid: 8d9a468b6bace5144b87218ef47f9d63, type: 3}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: 'The hallway buzzes with students heading out to clubs or heading home.
+      Herric waits by the door. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 8300000, guid: c9546cd4ceb803047b6118f31b4731b2, type: 3}
+    backgroundImage: {fileID: -6470460504253458178, guid: 54e2fcd445c408d408e667781254250d, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CYou coming, or are you gonna brood by the window some more?\u201D "
+    voiceClip: {fileID: 8300000, guid: 2ed7c85b186a1b242a014776b99121b1, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -6470460504253458178, guid: 54e2fcd445c408d408e667781254250d, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Kairi
+    text: "\u201C\u2026Fine. Let\u2019s go.\u201D "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -6470460504253458178, guid: 54e2fcd445c408d408e667781254250d, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: "We head back down to the fair booths. My feet already feel heavy. Flyers
+      are still taped to every surface: Art Club, Volleyball, Drama, and then\u2026 "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 8300000, guid: 8ffb94cf4f8e9b948aa73550da373be9, type: 3}
+    backgroundImage: {fileID: 7028616704906629411, guid: a75d8644be073904e9a14499b1b71eb2, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: "We head back down to the fair booths. My feet already feel heavy. Flyers
+      are still taped to every surface: Art Club, Volleyball, Drama, and then\u2026 "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 8300000, guid: 8ffb94cf4f8e9b948aa73550da373be9, type: 3}
+    backgroundImage: {fileID: 7028616704906629411, guid: a75d8644be073904e9a14499b1b71eb2, type: 3}
+    characterObject: {fileID: 1848088761}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -2932,6 +3352,133 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &954794057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 562282101}
+    m_Modifications:
+    - target: {fileID: 1376381928729299235, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4165374794425581023, guid: ba66647fbc8349f4682f724f2d3dc4aa, type: 3}
+    - target: {fileID: 3652977767983381474, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_Name
+      value: Nerd
+      objectReference: {fileID: 0}
+    - target: {fileID: 3652977767983381474, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 568.8112
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1497.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 862.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -460
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+--- !u!224 &954794058 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+  m_PrefabInstance: {fileID: 954794057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &954794059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3652977767983381474, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+  m_PrefabInstance: {fileID: 954794057}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1102969495
 GameObject:
   m_ObjectHideFlags: 0
@@ -3607,6 +4154,10 @@ PrefabInstance:
     - target: {fileID: 3652977767983381474, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
       propertyPath: m_Name
       value: Student Head
+      objectReference: {fileID: 0}
+    - target: {fileID: 3652977767983381474, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
       propertyPath: m_Pivot.x
