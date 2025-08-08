@@ -1952,7 +1952,7 @@ MonoBehaviour:
     goToSceneName: Prologue
   - speaker: Julius
     text: " \u201C\u2026Games\u2026?\u201D"
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: 14d5c4076c061cb4ba21571e75def6b7, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
@@ -2356,6 +2356,32 @@ MonoBehaviour:
   - speaker: 
     text: "After the standard boring classes, my \u201Cbuddy\u201D for the day, told
       me that we should go around and check out the available clubs. "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 8300000, guid: 8d9a468b6bace5144b87218ef47f9d63, type: 3}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CIt\u2019s the perfect time to check out the clubs.\u201D  "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 8300000, guid: 8d9a468b6bace5144b87218ef47f9d63, type: 3}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CIt\u2019s the perfect time to check out the clubs.\u201D  "
     voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 8300000, guid: 8d9a468b6bace5144b87218ef47f9d63, type: 3}
