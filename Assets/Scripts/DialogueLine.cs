@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-[System.Serializable] 
+[System.Serializable]
 public class DialogueLine
 {
     public string speaker;
@@ -14,7 +14,9 @@ public class DialogueLine
     public GameObject characterObject;   // for character
 
     public bool isChoice; // Mark if this is a choice
+    public bool isEndOfBranch;
     public string[] choices; // The choices shown to player
     public int[] nextLineIndices; // Where to go for each choice
 
+    public string goToSceneName;
 }

@@ -44,6 +44,18 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
+        if (choicePanel.activeInHierarchy) return;
+
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+        {
+            TryAdvanceDialogue();
+        }
+
+        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+        {
+            TryAdvanceDialogue();
+        }
+
         // Check if player presses Space or Enter
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         {
@@ -75,11 +87,13 @@ public class DialogueManager : MonoBehaviour
             StartCoroutine(ShowEndOfPrologue());
             return;
         }
+
     }
 
     void ShowLine()
     {
         DialogueLine line = dialogueLines[currentLine];
+
 
         // If it's a choice, pause dialogue and show choices
         if (line.isChoice)
@@ -140,6 +154,18 @@ public class DialogueManager : MonoBehaviour
         {
             currentCharacterObject.SetActive(false);
         }
+
+        if (line.goToSceneName != null)
+        {
+            nextSceneName = line.goToSceneName;
+        }
+
+        //if (line.isEndOfBranch)
+        //{
+        //    StartCoroutine(ShowEndOfPrologue());
+        //    return;
+        //}
+
     }
 
 
@@ -164,11 +190,39 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void OnChoiceSelected(int nextLine)
+    void OnChoiceSelected(int choiceIndex) //nextLine
     {
         choicePanel.SetActive(false);
-        currentLine = nextLine;
+        currentLine = choiceIndex;
         ShowLine();
+
+        //choicePanel.SetActive(false);
+
+        //DialogueLine choiceLine = dialogueLines[currentLine];
+
+        //DialogueLine current = dialogueLines[currentLine];
+
+
+        //// Check if this choice has a scene name assigned
+        ////if (choiceLine.choiceSceneNames != null)
+        ////{
+        ////    Debug.Log(choiceIndex);
+        ////    // Override the nextSceneName for the end fade
+        ////    nextSceneName = choiceLine.choiceSceneNames[choiceIndex];
+        ////    StartCoroutine(ShowEndOfPrologue());
+        ////}
+
+        //if (current.choiceSceneNames != null)
+        //{
+        //    nextSceneName = current.choiceSceneNames[choiceIndex];
+        //    StartCoroutine(ShowEndOfPrologue());
+        //}
+        //else
+        //{
+        //    // Just go to the next dialogue line
+        //    currentLine = choiceIndex;//current.nextLineIndices[choiceIndex];
+        //    ShowLine();
+        //}
     }
 
 
