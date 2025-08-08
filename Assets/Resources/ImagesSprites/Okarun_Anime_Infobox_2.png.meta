@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Okarun_Anime_Infobox_2_0: -8098098031451905988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
