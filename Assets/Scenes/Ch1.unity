@@ -2220,7 +2220,7 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: CH1S2
   - speaker: Teacher
-    text: '"Ahem... Queit Down class" '
+    text: '"Ahem... Quiet Down class" '
     voiceClip: {fileID: 8300000, guid: ac1ff07ad90c3284d88bdc214bff8b1f, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
@@ -2262,7 +2262,7 @@ MonoBehaviour:
     goToSceneName: CH1S2
   - speaker: Herric
     text: " \u201C\u2026Yo. Over here.\u201D "
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: 97ee34d9704d502489b5ee2d25a7a964, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
@@ -2289,7 +2289,7 @@ MonoBehaviour:
   - speaker: Herric
     text: "\u201CRelax. Everyone stares at new kids like that. They\u2019ll get over
       it.\u201D "
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: df5c80ac7e048844c9fcc73b83c4ce26, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
@@ -2306,7 +2306,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1848088761}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -2315,7 +2315,7 @@ MonoBehaviour:
     goToSceneName: CH1S2
   - speaker: Herric
     text: " \u201C\u2026Oh, totally. That was rough.\u201D"
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: 0f47326b83c14504eb8e09c8095ec33e, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
@@ -2342,7 +2342,7 @@ MonoBehaviour:
   - speaker: Herric
     text: " \u201CDon\u2019t worry, I\u2019m your official guide. I\u2019ll keep
       you from dying of awkwardness... Probably.\u201D "
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: 753cb69a078150741b1cc24cf09622e6, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
@@ -2369,10 +2369,106 @@ MonoBehaviour:
     goToSceneName: CH1S2
   - speaker: Herric
     text: "\u201CIt\u2019s the perfect time to check out the clubs.\u201D  "
+    voiceClip: {fileID: 8300000, guid: 3105311386f10df47a2c1d4001c819fc, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CSince a bit of time has already passed since the start of classes,
+      the club seniors got to prepare stuff for the club fair.\u201D "
+    voiceClip: {fileID: 8300000, guid: c697cb5de09f5bb408212d2cff457667, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CSince we\u2019ve got some free time, we should check them out.\u201D "
+    voiceClip: {fileID: 8300000, guid: 597578821c90aa64d8f98096e7a7cb02, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201COh, and don\u2019t expect anyone to hold your hand. You actually
+      have to do things in these clubs.\u201D "
+    voiceClip: {fileID: 8300000, guid: ddf6f8446deb42e498b05423cb656755, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "Do\u2026 things? Ugh. My kryptonite. "
+    voiceClip: {fileID: 8300000, guid: ddf6f8446deb42e498b05423cb656755, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: 'We arrived at the club fair area. Immediately I was BOMBARDED with loud
+      voices, big crowds, and banners and flyers were shoved my way '
     voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
-    sfxClip: {fileID: 8300000, guid: 8d9a468b6bace5144b87218ef47f9d63, type: 3}
-    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    sfxClip: {fileID: 8300000, guid: 8ffb94cf4f8e9b948aa73550da373be9, type: 3}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: 'I got introduced to various clubs. The literature club, the standard variety
+      of sports clubs, the game dev club, and other clubs of which I immediately
+      forgot about after the club fair.  '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 8300000, guid: c9546cd4ceb803047b6118f31b4731b2, type: 3}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Kairi
+    text: "\u201CI\u2019m sooooooo tired.. Uuuugh\u201D "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
@@ -2381,11 +2477,186 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: CH1S2
   - speaker: Herric
-    text: "\u201CIt\u2019s the perfect time to check out the clubs.\u201D  "
+    text: "\u201CWhat? Already down for the count?\u201D"
+    voiceClip: {fileID: 8300000, guid: f56806d9b1985324d97d18ad057822d3, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CHmmm\u2026 Fine, you can head back to the classroom first to rest.
+      I\u2019ll go get you something to drink and catch up\u201D "
+    voiceClip: {fileID: 8300000, guid: 05dd239f791d415478a2d6112079f8fb, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CHmmm\u2026 Fine, you can head back to the classroom first to rest.
+      I\u2019ll go get you something to drink and catch up\u201D "
+    voiceClip: {fileID: 8300000, guid: 05dd239f791d415478a2d6112079f8fb, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: "I shuffle back to the classroom, weaving through the still\u2011noisy
+      club fair. When I finally slide the door open, I\u2019m greeted by the relative
+      peace of an empty classroom\u2026"
     voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
-    sfxClip: {fileID: 8300000, guid: 8d9a468b6bace5144b87218ef47f9d63, type: 3}
+    sfxClip: {fileID: 8300000, guid: 8ffb94cf4f8e9b948aa73550da373be9, type: 3}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "Ah\u2026 silence. "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: 'Sweet, sweet silence. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "My one true love\u2026 besides games."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: 'I slump into my seat by the window and let out an exhausted sigh. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "\u2026Clubs, huh."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "They all looked so\u2026 productive. "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "All that energy\u2026 ugh."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: "I rest my cheek against the cool surface of my desk, eyes half\u2011lidded
+      as my thoughts start to drift\u2026 "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: "I rest my cheek against the cool surface of my desk, eyes half\u2011lidded
+      as my thoughts start to drift\u2026 "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: ???
+    text: "\u201C\u2026Hey.\u201D "
+    voiceClip: {fileID: 8300000, guid: 76228315a2b456743bc25b7ef9f37b14, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
