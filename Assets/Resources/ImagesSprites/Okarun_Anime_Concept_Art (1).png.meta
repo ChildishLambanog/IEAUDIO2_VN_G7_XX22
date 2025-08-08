@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7f8ff2d2ff132cf4bbf1fe8c66f75ed8
+guid: ba66647fbc8349f4682f724f2d3dc4aa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8098098031451905988
-    second: Okarun_Anime_Infobox_2_0
+      213: -4165374794425581023
+    second: Okarun_Anime_Concept_Art (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Okarun_Anime_Infobox_2_0
+      name: Okarun_Anime_Concept_Art (1)_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 6
         y: 0
-        width: 505
-        height: 491
+        width: 684
+        height: 2052
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c30e407feb6cd9f80800000000000000
-      internalID: -8098098031451905988
+      spriteID: 122c5ed81bd9136c0800000000000000
+      internalID: -4165374794425581023
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Okarun_Anime_Infobox_2_0: -8098098031451905988
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
