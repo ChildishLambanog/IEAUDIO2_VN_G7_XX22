@@ -821,81 +821,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290865842}
   m_CullTransparentMesh: 1
---- !u!1 &340933829
+--- !u!1 &340933829 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7675534205193535891, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+  m_PrefabInstance: {fileID: 3560299854450237979}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 340933830}
-  - component: {fileID: 340933832}
-  - component: {fileID: 340933831}
-  m_Layer: 5
-  m_Name: Teacher
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &340933830
+--- !u!224 &340933830 stripped
 RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+  m_PrefabInstance: {fileID: 3560299854450237979}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340933829}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.73, y: 0.73, z: 0.73}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 562282101}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 800, y: -744}
-  m_SizeDelta: {x: 1032.5817, y: 3144}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &340933831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340933829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -135558089773148155, guid: d10c087a96eaa9246ad00babd43e8dc6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &340933832
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340933829}
-  m_CullTransparentMesh: 1
 --- !u!1 &367268306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,7 +2155,7 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: CH1S2
   - speaker: Teacher
-    text: '"Ahem... Queit Down class" '
+    text: '"Ahem... Quiet Down class" '
     voiceClip: {fileID: 8300000, guid: ac1ff07ad90c3284d88bdc214bff8b1f, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
@@ -2262,7 +2197,7 @@ MonoBehaviour:
     goToSceneName: CH1S2
   - speaker: Herric
     text: " \u201C\u2026Yo. Over here.\u201D "
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: 97ee34d9704d502489b5ee2d25a7a964, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
@@ -2289,7 +2224,7 @@ MonoBehaviour:
   - speaker: Herric
     text: "\u201CRelax. Everyone stares at new kids like that. They\u2019ll get over
       it.\u201D "
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: df5c80ac7e048844c9fcc73b83c4ce26, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
@@ -2306,7 +2241,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1848088761}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -2315,7 +2250,7 @@ MonoBehaviour:
     goToSceneName: CH1S2
   - speaker: Herric
     text: " \u201C\u2026Oh, totally. That was rough.\u201D"
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: 0f47326b83c14504eb8e09c8095ec33e, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
@@ -2342,7 +2277,7 @@ MonoBehaviour:
   - speaker: Herric
     text: " \u201CDon\u2019t worry, I\u2019m your official guide. I\u2019ll keep
       you from dying of awkwardness... Probably.\u201D "
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: 753cb69a078150741b1cc24cf09622e6, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
@@ -2369,10 +2304,106 @@ MonoBehaviour:
     goToSceneName: CH1S2
   - speaker: Herric
     text: "\u201CIt\u2019s the perfect time to check out the clubs.\u201D  "
+    voiceClip: {fileID: 8300000, guid: 3105311386f10df47a2c1d4001c819fc, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CSince a bit of time has already passed since the start of classes,
+      the club seniors got to prepare stuff for the club fair.\u201D "
+    voiceClip: {fileID: 8300000, guid: c697cb5de09f5bb408212d2cff457667, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CSince we\u2019ve got some free time, we should check them out.\u201D "
+    voiceClip: {fileID: 8300000, guid: 597578821c90aa64d8f98096e7a7cb02, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201COh, and don\u2019t expect anyone to hold your hand. You actually
+      have to do things in these clubs.\u201D "
+    voiceClip: {fileID: 8300000, guid: ddf6f8446deb42e498b05423cb656755, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "Do\u2026 things? Ugh. My kryptonite. "
+    voiceClip: {fileID: 8300000, guid: ddf6f8446deb42e498b05423cb656755, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: 'We arrived at the club fair area. Immediately I was BOMBARDED with loud
+      voices, big crowds, and banners and flyers were shoved my way '
     voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
-    sfxClip: {fileID: 8300000, guid: 8d9a468b6bace5144b87218ef47f9d63, type: 3}
-    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    sfxClip: {fileID: 8300000, guid: 8ffb94cf4f8e9b948aa73550da373be9, type: 3}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: 'I got introduced to various clubs. The literature club, the standard variety
+      of sports clubs, the game dev club, and other clubs of which I immediately
+      forgot about after the club fair.  '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 8300000, guid: c9546cd4ceb803047b6118f31b4731b2, type: 3}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Kairi
+    text: "\u201CI\u2019m sooooooo tired.. Uuuugh\u201D "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
@@ -2381,11 +2412,186 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: CH1S2
   - speaker: Herric
-    text: "\u201CIt\u2019s the perfect time to check out the clubs.\u201D  "
+    text: "\u201CWhat? Already down for the count?\u201D"
+    voiceClip: {fileID: 8300000, guid: f56806d9b1985324d97d18ad057822d3, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CHmmm\u2026 Fine, you can head back to the classroom first to rest.
+      I\u2019ll go get you something to drink and catch up\u201D "
+    voiceClip: {fileID: 8300000, guid: 05dd239f791d415478a2d6112079f8fb, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Herric
+    text: "\u201CHmmm\u2026 Fine, you can head back to the classroom first to rest.
+      I\u2019ll go get you something to drink and catch up\u201D "
+    voiceClip: {fileID: 8300000, guid: 05dd239f791d415478a2d6112079f8fb, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: "I shuffle back to the classroom, weaving through the still\u2011noisy
+      club fair. When I finally slide the door open, I\u2019m greeted by the relative
+      peace of an empty classroom\u2026"
     voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
-    sfxClip: {fileID: 8300000, guid: 8d9a468b6bace5144b87218ef47f9d63, type: 3}
+    sfxClip: {fileID: 8300000, guid: 8ffb94cf4f8e9b948aa73550da373be9, type: 3}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "Ah\u2026 silence. "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: 'Sweet, sweet silence. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "My one true love\u2026 besides games."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: 'I slump into my seat by the window and let out an exhausted sigh. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "\u2026Clubs, huh."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "They all looked so\u2026 productive. "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: "All that energy\u2026 ugh."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: "I rest my cheek against the cool surface of my desk, eyes half\u2011lidded
+      as my thoughts start to drift\u2026 "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: 
+    text: "I rest my cheek against the cool surface of my desk, eyes half\u2011lidded
+      as my thoughts start to drift\u2026 "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: ???
+    text: "\u201C\u2026Hey.\u201D "
+    voiceClip: {fileID: 8300000, guid: 76228315a2b456743bc25b7ef9f37b14, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
@@ -3150,156 +3356,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760557982}
   m_CullTransparentMesh: 1
---- !u!1 &1789156960
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1789156961}
-  - component: {fileID: 1789156963}
-  - component: {fileID: 1789156962}
-  m_Layer: 5
-  m_Name: Student Head
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1789156961
+--- !u!224 &1789156961 stripped
 RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+  m_PrefabInstance: {fileID: 2055159381453946211}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789156960}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.73, y: 0.73, z: 0.73}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 562282101}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 931, y: -744}
-  m_SizeDelta: {x: 984, y: 3144}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1789156962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789156960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 7284355021254592848, guid: 0d76382a040aebc489e7a6a770561540, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1789156963
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789156960}
-  m_CullTransparentMesh: 1
---- !u!1 &1848088761
+--- !u!1 &1848088761 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 649823448187238012, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+  m_PrefabInstance: {fileID: 6761640054172504525}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1848088764}
-  - component: {fileID: 1848088763}
-  - component: {fileID: 1848088762}
-  m_Layer: 5
-  m_Name: CHF
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1848088762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848088761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 5996873018514592705, guid: 63dc8196029c6ea4ab83fcc28550edb5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1848088763
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848088761}
-  m_CullTransparentMesh: 1
---- !u!224 &1848088764
+--- !u!224 &1848088764 stripped
 RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+  m_PrefabInstance: {fileID: 6761640054172504525}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848088761}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 562282101}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 862.5639, y: -70}
-  m_SizeDelta: {x: 549.702, y: 768}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1966536585
 GameObject:
   m_ObjectHideFlags: 0
@@ -3525,6 +3596,297 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2055159381453946211
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 562282101}
+    m_Modifications:
+    - target: {fileID: 3652977767983381474, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_Name
+      value: Student Head
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 984
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 3144
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 931
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -744
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
+--- !u!1001 &3560299854450237979
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 562282101}
+    m_Modifications:
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1032.5817
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 3144
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -744
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565284669844560843, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675534205193535891, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+      propertyPath: m_Name
+      value: Teacher
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6f6aca76e05710741ac9e8db2340442a, type: 3}
+--- !u!1001 &6761640054172504525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 562282101}
+    m_Modifications:
+    - target: {fileID: 649823448187238012, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_Name
+      value: CHF
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 549.702
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 768
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 862.5639
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849882189684934298, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e86df0b3611b62c4ab0a858837f352ca, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
