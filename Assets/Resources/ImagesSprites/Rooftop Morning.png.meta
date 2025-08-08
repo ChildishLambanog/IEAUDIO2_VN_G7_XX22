@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rooftop Morning_0: -6692076735395964127
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

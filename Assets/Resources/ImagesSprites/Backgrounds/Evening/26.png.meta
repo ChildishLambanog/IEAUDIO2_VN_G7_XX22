@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fea82da9c4e92f645870965bcf117e48
+guid: 87645ac21af64c443b6177f6545ebfd0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2410997881483334952
-    second: Club Room_0
+      213: -1045133410153605164
+    second: 26_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Club Room_0
+      name: 26_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8da67f7633a6a8ed0800000000000000
-      internalID: -2410997881483334952
+      spriteID: 4d7d6e863b0fe71f0800000000000000
+      internalID: -1045133410153605164
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Club Room_0: -2410997881483334952
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
