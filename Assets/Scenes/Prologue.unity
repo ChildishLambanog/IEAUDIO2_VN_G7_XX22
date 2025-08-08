@@ -1058,7 +1058,7 @@ MonoBehaviour:
   - speaker: Student Head
     text: "\u201CWe hope you\u2019ll enjoy your time here at Alta Schola University.
       You\u2019ll be in Class 2-B.. Try to get along with your classmates, alright?\u201D "
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: 3c2afc551ca52d140abffe79e9082f0d, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6937817954938267909, guid: 33524e8f4df17834caef4575d2d6b28f, type: 3}
@@ -1113,7 +1113,7 @@ MonoBehaviour:
     text: "\u201COh and by the way, clubs are mandatory in this school. You are required
       to join and produce some results as part of your activities. So work well with
       your schoolmates!\u201D"
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: f780f6cd14dd1e948adc14816215f9ec, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 0}

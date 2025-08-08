@@ -2206,63 +2206,9 @@ MonoBehaviour:
     choices: []
     nextLineIndices: 
     goToSceneName: CH1S2
-  - speaker: Class
-    text: Whispers
-    voiceClip: {fileID: 8300000, guid: c9546cd4ceb803047b6118f31b4731b2, type: 3}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: CH1S2
-  - speaker: Teacher
-    text: '"Ahem... Queit Down class" '
-    voiceClip: {fileID: 8300000, guid: ac1ff07ad90c3284d88bdc214bff8b1f, type: 3}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: CH1S2
-  - speaker: Teacher
-    text: "\u201CAlright, that\u2019ll do, Kairi. You can take the empty seat by
-      the window.  Ah\u2026 before I forget. You\u2019ve been assigned a buddy to
-      help you adjust for your first week. Herric, raise your hand.\u201D"
-    voiceClip: {fileID: 8300000, guid: 0c504bc72020e1b4e8f647153bd9e281, type: 3}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: CH1S2
-  - speaker: 
-    text: A hand lazily goes up from somewhere
+  - speaker: ...
+    text: ...
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: CH1S2
-  - speaker: Herric
-    text: " \u201C\u2026Yo. Over here.\u201D "
-    voiceClip: {fileID: 8300000, guid: 0c504bc72020e1b4e8f647153bd9e281, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
