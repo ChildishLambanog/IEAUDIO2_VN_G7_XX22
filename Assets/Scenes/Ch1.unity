@@ -1356,6 +1356,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 938225219}
+  - {fileID: 1848088764}
   - {fileID: 129586892}
   - {fileID: 1789156961}
   - {fileID: 340933830}
@@ -1648,7 +1649,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: END OF PROLOGUE
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1783,12 +1784,13 @@ MonoBehaviour:
       obviously practiced small speech leaving the anti-social girl (Self-designated)
       in shock and speechless.   '
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
     sfxClip: {fileID: 8300000, guid: 8ffb94cf4f8e9b948aa73550da373be9, type: 3}
     backgroundImage: {fileID: 0}
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
     goToSceneName: 
@@ -1801,6 +1803,7 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
     goToSceneName: 
@@ -1813,6 +1816,7 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
     goToSceneName: 
@@ -1827,6 +1831,7 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
     goToSceneName: 
@@ -1841,6 +1846,7 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
     goToSceneName: 
@@ -1856,6 +1862,7 @@ MonoBehaviour:
     characterObject: {fileID: 340933829}
     isChoice: 0
     isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
     goToSceneName: 
@@ -1868,6 +1875,7 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
     goToSceneName: 
@@ -1880,11 +1888,12 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 1
     isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices:
     - Be awkward/nervous and blunt
     - Attempt to be overly polite
     - Make a joke
-    nextLineIndices: 090000000000000000000000
+    nextLineIndices: 090000001000000016000000
     goToSceneName: 
   - speaker: 
     text: Choose
@@ -1895,6 +1904,7 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
     goToSceneName: 
@@ -1902,12 +1912,13 @@ MonoBehaviour:
     text: "\u201C... Uhhh\u2026 H-Hi, I just transferred here because *mumbles* reasons
       a-and uhm\u2026 I like g-games I guess?... Y-yeah, that\u2019s all\u201D "
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices:
     - once choice
     nextLineIndices: 
@@ -1921,32 +1932,7 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
-    choices:
-    - once choice
-    nextLineIndices: 
-    goToSceneName: Prologue
-  - speaker: Inner Kairi
-    text: "Why did I say it like that!? That\u2019s not even a real introduction!"
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    choices:
-    - once choice
-    nextLineIndices: 
-    goToSceneName: Prologue
-  - speaker: 
-    text: walahi 4
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
+    jumpToLineIndex: -1
     choices:
     - once choice
     nextLineIndices: 
@@ -1960,8 +1946,8 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
-    choices:
-    - once choice
+    jumpToLineIndex: -1
+    choices: []
     nextLineIndices: 
     goToSceneName: Prologue
   - speaker: Julius
@@ -1973,8 +1959,8 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
-    choices:
-    - once choice
+    jumpToLineIndex: -1
+    choices: []
     nextLineIndices: 
     goToSceneName: Prologue
   - speaker: Inner Kairi
@@ -1986,8 +1972,8 @@ MonoBehaviour:
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
-    choices:
-    - once choice
+    jumpToLineIndex: -1
+    choices: []
     nextLineIndices: 
     goToSceneName: Prologue
   - speaker: Inner Kairi
@@ -1996,14 +1982,243 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: ...
+    text: ...
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 1
+    jumpToLineIndex: 31
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Kairi
+    text: "\u201CGood morning, everyone! My name is Kairi. It\u2019s an honor to
+      be in this class, and I look forward to working hard and getting along with
+      all of you.\u201D"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
     characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
-    choices:
-    - once choice
+    jumpToLineIndex: -1
+    choices: []
     nextLineIndices: 
-    goToSceneName: Prologue
+    goToSceneName: 
+  - speaker: Inner Kairi
+    text: "Oh no\u2026 I sound like a generic NPC giving a tutorial speech\u2026 "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Louis
+    text: " \u201CWow, she\u2019s so proper. That\u2019s refreshing. Welcome to 2\u2011B!\u201D "
+    voiceClip: {fileID: 8300000, guid: dc957120400c2454096ce1bc9b3ea7b9, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Inner Kairi
+    text: 'Why is he smiling at me like that!? Abort, ABORT!!! '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Inner Kairi
+    text: 'Why is he smiling at me like that!? Abort, ABORT!!! '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: ...
+    text: ...
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 1
+    jumpToLineIndex: 31
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Kairi
+    text: "\u201C\u2026Uh, hey. I\u2019m Kairi. I transferred here because my last
+      school realized I\u2019d already mastered the art of sleeping through class
+      without getting caught\u2026 so they sent me here as punishment.\u201D"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Crickets
+    text: ....
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Classmates
+    text: ........
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Inner Kairi
+    text: "\u2026Kill me now "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: "\u2026 Or so I thought until I heard a small chuckle coming from the back
+      of the classroom "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: "As I walked towards my seat after that awkward introduction, I saw someone
+      very familiar looking at me with a grin so dumb, I\u2019d end up punching him
+      in the face if I could. "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Herric
+    text: "\u201CIt\u2019s been a while huh? Glad to see you haven\u2019t changed
+      a bit\u201D "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: It was my Herric, my childhood friend.
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 1848088761}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: ...
+    text: ...
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 1
+    jumpToLineIndex: 31
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: ...
+    text: ...
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: 31
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
   speakerText: {fileID: 367268308}
   dialogueText: {fileID: 571751300}
   voiceAudioSource: {fileID: 1727082476}
@@ -2019,7 +2234,7 @@ MonoBehaviour:
   - {fileID: 290865844}
   endProloguePanel: {fileID: 698653644}
   fadeDuration: 1
-  endDelay: 2
+  endDelay: 1
   nextSceneName: NextScene
 --- !u!1 &877483285
 GameObject:
@@ -2253,7 +2468,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.413
+  m_Volume: 0.212
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2602,7 +2817,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.413
+  m_Volume: 0.761
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2836,6 +3051,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789156960}
   m_CullTransparentMesh: 1
+--- !u!1 &1848088761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1848088764}
+  - component: {fileID: 1848088763}
+  - component: {fileID: 1848088762}
+  m_Layer: 5
+  m_Name: CHF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1848088762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848088761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 5996873018514592705, guid: 63dc8196029c6ea4ab83fcc28550edb5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1848088763
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848088761}
+  m_CullTransparentMesh: 1
+--- !u!224 &1848088764
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848088761}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 562282101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 862.5639, y: -70}
+  m_SizeDelta: {x: 549.702, y: 768}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1966536585
 GameObject:
   m_ObjectHideFlags: 0
@@ -2885,7 +3175,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.413
+  m_Volume: 0.136
   m_Pitch: 1
   Loop: 0
   Mute: 0

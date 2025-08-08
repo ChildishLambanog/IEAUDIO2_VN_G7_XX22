@@ -46,15 +46,15 @@ public class DialogueManager : MonoBehaviour
     {
         if (choicePanel.activeInHierarchy) return;
 
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
-        {
-            TryAdvanceDialogue();
-        }
+        //if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+        //{
+        //    TryAdvanceDialogue();
+        //}
 
-        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
-        {
-            TryAdvanceDialogue();
-        }
+        //if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+        //{
+        //    TryAdvanceDialogue();
+        //}
 
         // Check if player presses Space or Enter
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
@@ -62,15 +62,33 @@ public class DialogueManager : MonoBehaviour
             TryAdvanceDialogue();
         }
 
-        // Check for mouse click anywhere not on UI
-        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
-        {
-            TryAdvanceDialogue();
-        }
+        //// Check for mouse click anywhere not on UI
+        //if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+        //{
+        //    TryAdvanceDialogue();
+        //}
     }
 
     void TryAdvanceDialogue()
     {
+        DialogueLine line = dialogueLines[currentLine];
+
+        if (line.isEndOfBranch)
+        {
+            if (line.jumpToLineIndex >= 0 && line.jumpToLineIndex < dialogueLines.Length)
+            {
+                currentLine = line.jumpToLineIndex;
+                ShowLine();
+                return;
+            }
+            else
+            {
+                // Fallback: jump to last line
+                currentLine = dialogueLines.Length - 1;
+                ShowLine();
+                return;
+            }
+        }
         currentLine++;
 
         if (currentLine < dialogueLines.Length)

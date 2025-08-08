@@ -15,6 +15,7 @@ public class DialogueLine
 
     public bool isChoice; // Mark if this is a choice
     public bool isEndOfBranch;
+    public int jumpToLineIndex = -1; // Where to jump when branch ends (-1 = disabled)
     public string[] choices; // The choices shown to player
     public int[] nextLineIndices; // Where to go for each choice
 
