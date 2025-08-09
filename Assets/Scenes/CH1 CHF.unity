@@ -1784,7 +1784,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 7028616704906629411, guid: a75d8644be073904e9a14499b1b71eb2, type: 3}
-    characterObject: {fileID: 954794059}
+    characterObject: {fileID: 6761640054172504526}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -2311,11 +2311,6 @@ PrefabInstance:
 --- !u!224 &954794058 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5627856581108117947, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
-  m_PrefabInstance: {fileID: 954794057}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &954794059 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3652977767983381474, guid: 7fb06b270869c8e43af8781fefb3c852, type: 3}
   m_PrefabInstance: {fileID: 954794057}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1102969495
