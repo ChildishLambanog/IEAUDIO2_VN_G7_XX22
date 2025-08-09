@@ -269,6 +269,81 @@ RectTransform:
   m_AnchoredPosition: {x: 873, y: -30.72}
   m_SizeDelta: {x: 512, y: 768}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &270524445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 270524446}
+  - component: {fileID: 270524448}
+  - component: {fileID: 270524447}
+  m_Layer: 5
+  m_Name: Nerd Boy (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &270524446
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270524445}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9200001, y: 0.9200001, z: 0.9200001}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1309254910}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 402.06055, y: -13.661865}
+  m_SizeDelta: {x: 651.1466, y: 1497.731}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &270524447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270524445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -4165374794425581023, guid: ba66647fbc8349f4682f724f2d3dc4aa, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &270524448
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270524445}
+  m_CullTransparentMesh: 1
 --- !u!1 &367268306
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +509,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 938225219}
+  - {fileID: 1309254910}
   - {fileID: 129586892}
+  - {fileID: 2065734141}
   - {fileID: 1559172643}
   - {fileID: 1058525408}
   - {fileID: 1789156961}
@@ -529,8 +606,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.45
-  m_fontSizeBase: 32.45
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -878,7 +955,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 938225218}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -891,7 +968,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 938225218}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -931,7 +1008,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 1559172642}
+    characterObject: {fileID: 1309254909}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -944,7 +1021,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 1559172642}
+    characterObject: {fileID: 938225218}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -967,11 +1044,11 @@ MonoBehaviour:
   - speaker: Inner Kairi
     text: "Does he\u2026 look relieved? That\u2019s kinda cute\u2026 in a weird gremlin
       sort of way. "
-    voiceClip: {fileID: 8300000, guid: 8e642675194694a42b921719a424874f, type: 3}
+    voiceClip: {fileID: 0}
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 1559172642}
+    characterObject: {fileID: 938225218}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -984,7 +1061,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 1559172642}
+    characterObject: {fileID: 938225218}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1011,7 +1088,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 1559172642}
+    characterObject: {fileID: 938225218}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1025,6 +1102,594 @@ MonoBehaviour:
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "Damn. We\u2019re so screwed."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: Both laugh awkwardly, and for a second, the tension eases. The club advisor
+      enters to start orientation, handing out a basic game dev project for beginners,
+      something simple, like a pixel-art RPG prototype.
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1309254909}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: Later that week, Julius and Kairi are paired together to brainstorm ideas.
+      They're seated in the library, spread out with paper and laptops.
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1309254909}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026So\u2026 what kind of game do you like?"
+    voiceClip: {fileID: 8300000, guid: 917df3c6873cc804eb31ef57ad9949e5, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: Depressing RPGs where everyone dies.
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026Oh. Same."
+    voiceClip: {fileID: 8300000, guid: ac75ea963d1bab543a3daa8ed7aaca2f, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Inner Kairi
+    text: "Wait\u2026 What?"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "\u2026Seriously?"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026Yeah. The pain makes the story better. When characters actually
+      suffer\u2026 it feels more real. And when you win, it means something."
+    voiceClip: {fileID: 8300000, guid: 8ce761ae5452efb41b8ef9fc2aaf4fc1, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: "There\u2019s a pause. For the first time, Kairi sees something flicker
+      in his expression, like fire behind fogged glass."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1309254909}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "\u2026That\u2019s\u2026 actually kinda deep."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026Sorry. I ramble when I\u2019m nervous."
+    voiceClip: {fileID: 8300000, guid: d6bb0e90ae053a7449f9de7448afa817, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "No, it\u2019s fine. That\u2019s\u2026 probably the most human thing anyone\u2019s
+      said to me this week."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026You\u2019re not what I expected either."
+    voiceClip: {fileID: 8300000, guid: 16719268d1d04dd40a68245c701f2647, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: 'They work into the late afternoon, sketching ideas. The awkward tension
+      begins to shift into a natural quiet rhythm. '
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4349915267927364619, guid: 7dabdd298f8380745beaceee76e57849, type: 3}
+    characterObject: {fileID: 1309254909}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: "The sun is setting. They\u2019re walking together down the path home from
+      school."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1309254909}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "\u2026So. You\u2019re always quiet like this?"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026It\u2019s easier that way. People don\u2019t expect much from you."
+    voiceClip: {fileID: 8300000, guid: ad41b2297eca09040b0ed26ddaebdd2e, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "\u2026You get tired of it?"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026All the time."
+    voiceClip: {fileID: 8300000, guid: 2d59b982932b8b24bb1a11bc35930bfc, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: They stop at a vending machine. Kairi buys two drinks and wordlessly tosses
+      him one.
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1309254909}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026Thanks."
+    voiceClip: {fileID: 8300000, guid: 703167ba0c5e99d4bb7c4a796539800b, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "Don\u2019t get used to it. I\u2019m too broke for generosity."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026You\u2019re not as scary as you act."
+    voiceClip: {fileID: 8300000, guid: a0046b2f93735a54b9458fff8969e699, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "Wh\u2011What the hell does that mean?!"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026You act like you want to be invisible. But you still talk to people
+      like me."
+    voiceClip: {fileID: 8300000, guid: 089d0a97872d3884fa931cf9068e18c1, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "\u2026Yeah, well. I thought we could be invisible together."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: "A pause. They look at each other for a moment. He\u2019s not smiling,
+      but his expression is soft. Open."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1309254909}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026I wouldn\u2019t mind that."
+    voiceClip: {fileID: 8300000, guid: 34747bd01e556f240942cb10ca89fd02, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: That night, Kairi receives a message on her phone from an unknown number.
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 5435209892939362672, guid: 8c8a46be97ee0324ead25f633119a7a3, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "Hey. Thanks for today. I\u2026 had fun. Hope that\u2019s not weird."
+    voiceClip: {fileID: 8300000, guid: a09f0267c047936489dde5e185493584, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 5435209892939362672, guid: 8c8a46be97ee0324ead25f633119a7a3, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Inner Kairi
+    text: "\u2026Oh."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -9033898464212752457, guid: a335f61ef595c6840935488002cafcce, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: Yeah. It was surprisingly fun.
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 5435209892939362672, guid: 8c8a46be97ee0324ead25f633119a7a3, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: Back in the clubroom, the team begins working on pixel art mockups. Julius
+      helps Kairi with coding logic for the RPG prototype. Herric is slouched in
+      a chair nearby, snacking. Louis enters, watching the duo work.
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Louis
+    text: Wow, look at you two. Getting serious, huh?
+    voiceClip: {fileID: 8300000, guid: c0585a5ff881f3b419f6ee77f2578566, type: 3}
+    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 2065734138}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "\u2026We\u2019re just being productive for once. Don\u2019t ruin it."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u2026She\u2019s actually good at this. She just\u2026 doesn\u2019t realize
+      it."
+    voiceClip: {fileID: 8300000, guid: 7f548364ee7ae4d4da2019c103245b4d, type: 3}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Inner Kairi
+    text: "Huh. That\u2019s the first compliment I\u2019ve gotten in a while\u2026"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Inner Kairi
+    text: "And for some reason, it doesn\u2019t make me cringe."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Louis
+    text: "Well, keep at it. I\u2019ll catch up soon."
+    voiceClip: {fileID: 8300000, guid: cb4451a7aa6dc38408b83fcc7bc57472, type: 3}
+    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 2065734138}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: He strolls out, but his eyes linger just a second longer than normal before
+      he goes. Herric watches him go, then gives Kairi a sideways glance.
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Herric
+    text: "\u2026That guy gives me weird vibes sometimes."
+    voiceClip: {fileID: 8300000, guid: 90e7ecaeb5ddb51468e98c9cd0898521, type: 3}
+    musicClip: {fileID: 8300000, guid: 14596be9a129ae9488510e5e0214ec34, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1058525407}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: Yeah, well. So do I.
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 938225218}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: 
+    text: "They all return to working, and for the first time in a while, Kairi doesn\u2019t
+      feel completely out of place."
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1653,6 +2318,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1170003816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1170003817}
+  - component: {fileID: 1170003819}
+  - component: {fileID: 1170003818}
+  m_Layer: 5
+  m_Name: Protag (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1170003817
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170003816}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9200001, y: 0.9200001, z: 0.9200001}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1309254910}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -483.30664, y: 349.33813}
+  m_SizeDelta: {x: 474.525, y: 768}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1170003818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170003816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 4061006292525408688, guid: 23c1b419080681343a3696d4b782af68, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1170003819
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170003816}
+  m_CullTransparentMesh: 1
 --- !u!1 &1182143820
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,6 +2482,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182143820}
   m_CullTransparentMesh: 1
+--- !u!1 &1309254909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1309254910}
+  m_Layer: 5
+  m_Name: Kairi-Julius
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1309254910
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309254909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1170003817}
+  - {fileID: 270524446}
+  m_Father: {fileID: 562282101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 500.5456, y: -419.33813}
+  m_SizeDelta: {x: 1403.1761, y: 1405.2363}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1559172642
 GameObject:
   m_ObjectHideFlags: 0
@@ -2370,6 +3147,81 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &2065734138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2065734141}
+  - component: {fileID: 2065734140}
+  - component: {fileID: 2065734139}
+  m_Layer: 5
+  m_Name: Louis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2065734139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065734138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 4061006292525408688, guid: 23c1b419080681343a3696d4b782af68, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2065734140
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065734138}
+  m_CullTransparentMesh: 1
+--- !u!224 &2065734141
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065734138}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9200001, y: 0.9200001, z: 0.9200001}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 562282101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 873, y: -30.72}
+  m_SizeDelta: {x: 512, y: 768}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2111764301
 GameObject:
   m_ObjectHideFlags: 0

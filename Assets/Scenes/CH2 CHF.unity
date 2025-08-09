@@ -269,6 +269,81 @@ RectTransform:
   m_AnchoredPosition: {x: 873, y: -30.72}
   m_SizeDelta: {x: 512, y: 768}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &270524445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 270524446}
+  - component: {fileID: 270524448}
+  - component: {fileID: 270524447}
+  m_Layer: 5
+  m_Name: Nerd Boy (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &270524446
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270524445}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9200001, y: 0.9200001, z: 0.9200001}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1309254910}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 402.06055, y: -13.661865}
+  m_SizeDelta: {x: 651.1466, y: 1497.731}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &270524447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270524445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -4165374794425581023, guid: ba66647fbc8349f4682f724f2d3dc4aa, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &270524448
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270524445}
+  m_CullTransparentMesh: 1
 --- !u!1 &367268306
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +509,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 938225219}
+  - {fileID: 1309254910}
   - {fileID: 129586892}
+  - {fileID: 2065734141}
+  - {fileID: 1559172643}
+  - {fileID: 1058525408}
   - {fileID: 1789156961}
   m_Father: {fileID: 877483289}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -527,8 +606,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.45
-  m_fontSizeBase: 32.45
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -855,290 +934,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speaker: Kairi
-    text: "My name is Kairi. For most of my time on this planet, I\u2019ve lived
-      a boring life."
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: d14d9679b8e509d448d5c88726ce7ea5, type: 3}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -855298285791758126, guid: 4fbd802a3bb637a47ac99c6fcf58f696, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: "To the point where sometimes, I end up wondering what I\u2019m even living
-      for."
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: 'Dark thoughts, I know. '
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: "I\u2019ve gone through a lot in this meager life of mine. "
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: 'Thankfully, I have some things that keep me going.  '
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: GAMES!
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: 'The wonderful world of games. Where I can immerse myself in a non-existent
-      world and forget about reality! '
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: 'GAMES ARE MY LOVE! '
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: GAMES ARE MY LIFE!
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: 'How wonderful would it be if I would be able to continue on with my life
-      only playing games alone and scraping by IRL by doing the bare minimum. '
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: "Or so I thought\u2026"
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: "Everything was going according to my plans\u2026 "
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: 'UNTIL THAT DAY CAME '
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: "I won\u2019t go into the details, but that event forced me to transfer
-      to another school where I was forced to adjust and change my ways a bit\u2026 "
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: "Which brings us to this situation\u2026"
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Student Head
-    text: "\u201CWe hope you\u2019ll enjoy your time here at Alta Schola University.
-      You\u2019ll be in Class 2-B.. Try to get along with your classmates, alright?\u201D "
-    voiceClip: {fileID: 8300000, guid: 3c2afc551ca52d140abffe79e9082f0d, type: 3}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 6937817954938267909, guid: 33524e8f4df17834caef4575d2d6b28f, type: 3}
-    characterObject: {fileID: 1789156960}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Inner Kairi
-    text: "Get along with my classmates? Yeah, right\u2026That\u2019s a tall order
-      for someone whose social skills are on par with a small insect. "
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -855298285791758126, guid: 4fbd802a3bb637a47ac99c6fcf58f696, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Inner Kairi
-    text: "Yeeahhh, I think that won\u2019t be possible for me."
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -855298285791758126, guid: 4fbd802a3bb637a47ac99c6fcf58f696, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: "\u201CThanks, I\u2019ll do my best!\u201D"
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 6937817954938267909, guid: 33524e8f4df17834caef4575d2d6b28f, type: 3}
-    characterObject: {fileID: 1789156960}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Student Head
-    text: "\u201COh and by the way, clubs are mandatory in this school. You are required
-      to join and produce some results as part of your activities. So work well with
-      your schoolmates!\u201D"
-    voiceClip: {fileID: 8300000, guid: f780f6cd14dd1e948adc14816215f9ec, type: 3}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 0}
-    characterObject: {fileID: 1789156960}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Inner Kairi
-    text: '*SHOCK AND DESPAIR* '
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -855298285791758126, guid: 4fbd802a3bb637a47ac99c6fcf58f696, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
   - speaker: 
-    text: END OF PROLOGUE
+    text: 
     voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
@@ -1149,12 +946,12 @@ MonoBehaviour:
     jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
-    goToSceneName: Ch1
+    goToSceneName: 
   speakerText: {fileID: 367268308}
   dialogueText: {fileID: 571751300}
   voiceAudioSource: {fileID: 1727082476}
   musicAudioSource: {fileID: 952031033}
-  sfxAudioSource: {fileID: 0}
+  sfxAudioSource: {fileID: 1803883606}
   backgroundImageUI: {fileID: 66966113}
   characterObject: {fileID: 0}
   typingSpeed: 0.03
@@ -1263,6 +1060,7 @@ RectTransform:
   - {fileID: 1760557983}
   - {fileID: 797132415}
   - {fileID: 952031032}
+  - {fileID: 1803883605}
   - {fileID: 1727082475}
   - {fileID: 698653645}
   - {fileID: 1182143821}
@@ -1533,7 +1331,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.217
+  m_Volume: 0.06
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1617,6 +1415,81 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1058525407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1058525408}
+  - component: {fileID: 1058525410}
+  - component: {fileID: 1058525409}
+  m_Layer: 5
+  m_Name: CHF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1058525408
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058525407}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 562282101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 862.56, y: -70}
+  m_SizeDelta: {x: 549.702, y: 768}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1058525409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058525407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 5996873018514592705, guid: 63dc8196029c6ea4ab83fcc28550edb5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1058525410
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058525407}
+  m_CullTransparentMesh: 1
 --- !u!1 &1102969495
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,6 +1569,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1170003816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1170003817}
+  - component: {fileID: 1170003819}
+  - component: {fileID: 1170003818}
+  m_Layer: 5
+  m_Name: Protag (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1170003817
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170003816}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9200001, y: 0.9200001, z: 0.9200001}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1309254910}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -483.30664, y: 349.33813}
+  m_SizeDelta: {x: 474.525, y: 768}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1170003818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170003816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 4061006292525408688, guid: 23c1b419080681343a3696d4b782af68, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1170003819
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170003816}
+  m_CullTransparentMesh: 1
 --- !u!1 &1182143820
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,6 +1732,118 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182143820}
+  m_CullTransparentMesh: 1
+--- !u!1 &1309254909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1309254910}
+  m_Layer: 5
+  m_Name: Kairi-Julius
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1309254910
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309254909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1170003817}
+  - {fileID: 270524446}
+  m_Father: {fileID: 562282101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 500.5456, y: -419.33813}
+  m_SizeDelta: {x: 1403.1761, y: 1405.2363}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1559172642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1559172643}
+  - component: {fileID: 1559172645}
+  - component: {fileID: 1559172644}
+  m_Layer: 5
+  m_Name: Nerd Boy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1559172643
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559172642}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9200001, y: 0.9200001, z: 0.9200001}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 562282101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 902.6062, y: -433}
+  m_SizeDelta: {x: 651.1466, y: 1497.731}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1559172644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559172642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -4165374794425581023, guid: ba66647fbc8349f4682f724f2d3dc4aa, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1559172645
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559172642}
   m_CullTransparentMesh: 1
 --- !u!1 &1592391645
 GameObject:
@@ -1971,7 +2031,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.629
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2205,6 +2265,214 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789156960}
   m_CullTransparentMesh: 1
+--- !u!1 &1803883604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1803883605}
+  - component: {fileID: 1803883606}
+  m_Layer: 5
+  m_Name: SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1803883605
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803883604}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 877483289}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &1803883606
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803883604}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
+  m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.217
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &2065734138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2065734141}
+  - component: {fileID: 2065734140}
+  - component: {fileID: 2065734139}
+  m_Layer: 5
+  m_Name: Louis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2065734139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065734138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 4061006292525408688, guid: 23c1b419080681343a3696d4b782af68, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2065734140
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065734138}
+  m_CullTransparentMesh: 1
+--- !u!224 &2065734141
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065734138}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9200001, y: 0.9200001, z: 0.9200001}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 562282101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 873, y: -30.72}
+  m_SizeDelta: {x: 512, y: 768}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2111764301
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,6 +2484,7 @@ GameObject:
   - component: {fileID: 2111764304}
   - component: {fileID: 2111764303}
   - component: {fileID: 2111764302}
+  - component: {fileID: 2111764305}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2297,6 +2566,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2111764305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111764301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
