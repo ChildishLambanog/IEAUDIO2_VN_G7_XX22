@@ -938,7 +938,7 @@ MonoBehaviour:
     text: The room is quiet, filled with the low hum of a few PCs. Some upperclassmen
       are talking among themselves while typing away. Kairi hesitates at the doorway.
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 0}
@@ -989,7 +989,7 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026Oh. You came."
+    text: "\u201C\u2026Oh. You came.\u201D"
     voiceClip: {fileID: 8300000, guid: 8a19c11ceccc6634e83c6441a4db8a1f, type: 3}
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
@@ -1005,10 +1005,10 @@ MonoBehaviour:
     text: She spots him sitting at a corner station, typing nervously. He looks up
       at her with a stiff but sincere expression.
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 1309254909}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1016,12 +1016,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "\u2026Yeah. I figured I\u2019d give it a try."
+    text: "\u201C\u2026Yeah. I figured I\u2019d give it a try.\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1029,9 +1029,9 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026That\u2019s\u2026 good. I\u2026 wasn\u2019t sure you would."
+    text: "\u201C\u2026That\u2019s\u2026 good. I\u2026 wasn\u2019t sure you would.\u201D"
     voiceClip: {fileID: 8300000, guid: 8e642675194694a42b921719a424874f, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1045,10 +1045,10 @@ MonoBehaviour:
     text: "Does he\u2026 look relieved? That\u2019s kinda cute\u2026 in a weird gremlin
       sort of way. "
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1056,12 +1056,13 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "Didn\u2019t expect you to be here already. Thought I\u2019d beat you."
+    text: "\u201CDidn\u2019t expect you to be here already. Thought I\u2019d beat
+      you.\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1069,10 +1070,10 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026I came early. Wanted to look at the equipment. They have\u2026 decent
-      tools."
+    text: "\u201C\u2026I came early. Wanted to look at the equipment. They have\u2026
+      decent tools.\u201D"
     voiceClip: {fileID: 8300000, guid: d10a339a59a983546bab7fe73a8ab75b, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1083,12 +1084,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "\u2026Any idea what we\u2019re supposed to actually do?"
+    text: "\u201C\u2026Any idea what we\u2019re supposed to actually do?\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1096,9 +1097,9 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026I was hoping you\u2019d know."
+    text: "\u201C\u2026I was hoping you\u2019d know.\u201D"
     voiceClip: {fileID: 8300000, guid: fa211778b43e8e842b23efad97a2c5e7, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1109,12 +1110,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "Damn. We\u2019re so screwed."
+    text: "\u201CDamn. We\u2019re so screwed.\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1126,10 +1127,10 @@ MonoBehaviour:
       enters to start orientation, handing out a basic game dev project for beginners,
       something simple, like a pixel-art RPG prototype.
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 1309254909}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1140,10 +1141,10 @@ MonoBehaviour:
     text: Later that week, Julius and Kairi are paired together to brainstorm ideas.
       They're seated in the library, spread out with paper and laptops.
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 1309254909}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1151,9 +1152,9 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026So\u2026 what kind of game do you like?"
+    text: "\u201C\u2026So\u2026 what kind of game do you like?\u201D"
     voiceClip: {fileID: 8300000, guid: 917df3c6873cc804eb31ef57ad9949e5, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1164,12 +1165,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: Depressing RPGs where everyone dies.
+    text: "\u201CDepressing RPGs where everyone dies.\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1177,9 +1178,9 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026Oh. Same."
+    text: "\u201C\u2026Oh. Same.\u201D"
     voiceClip: {fileID: 8300000, guid: ac75ea963d1bab543a3daa8ed7aaca2f, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1192,10 +1193,10 @@ MonoBehaviour:
   - speaker: Inner Kairi
     text: "Wait\u2026 What?"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1203,12 +1204,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "\u2026Seriously?"
+    text: "\u201C\u2026Seriously?\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1216,10 +1217,10 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026Yeah. The pain makes the story better. When characters actually
-      suffer\u2026 it feels more real. And when you win, it means something."
+    text: "\u201C\u2026Yeah. The pain makes the story better. When characters actually
+      suffer\u2026 it feels more real. And when you win, it means something.\u201D"
     voiceClip: {fileID: 8300000, guid: 8ce761ae5452efb41b8ef9fc2aaf4fc1, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1233,33 +1234,7 @@ MonoBehaviour:
     text: "There\u2019s a pause. For the first time, Kairi sees something flicker
       in his expression, like fire behind fogged glass."
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 1309254909}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: "\u2026That\u2019s\u2026 actually kinda deep."
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Julius
-    text: "\u2026Sorry. I ramble when I\u2019m nervous."
-    voiceClip: {fileID: 8300000, guid: d6bb0e90ae053a7449f9de7448afa817, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1270,13 +1245,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "No, it\u2019s fine. That\u2019s\u2026 probably the most human thing anyone\u2019s
-      said to me this week."
+    text: "\u201C\u2026That\u2019s\u2026 actually kinda deep.\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1284,9 +1258,36 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026You\u2019re not what I expected either."
+    text: "\u201C\u2026Sorry. I ramble when I\u2019m nervous.\u201D"
+    voiceClip: {fileID: 8300000, guid: d6bb0e90ae053a7449f9de7448afa817, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "\u201CNo, it\u2019s fine. That\u2019s\u2026 probably the most human thing
+      anyone\u2019s said to me this week.\u201D"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u201C\u2026You\u2019re not what I expected either.\u201D"
     voiceClip: {fileID: 8300000, guid: 16719268d1d04dd40a68245c701f2647, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1300,10 +1301,10 @@ MonoBehaviour:
     text: 'They work into the late afternoon, sketching ideas. The awkward tension
       begins to shift into a natural quiet rhythm. '
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 4349915267927364619, guid: 7dabdd298f8380745beaceee76e57849, type: 3}
-    characterObject: {fileID: 1309254909}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1314,33 +1315,7 @@ MonoBehaviour:
     text: "The sun is setting. They\u2019re walking together down the path home from
       school."
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 1309254909}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Kairi
-    text: "\u2026So. You\u2019re always quiet like this?"
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: 
-  - speaker: Julius
-    text: "\u2026It\u2019s easier that way. People don\u2019t expect much from you."
-    voiceClip: {fileID: 8300000, guid: ad41b2297eca09040b0ed26ddaebdd2e, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1351,12 +1326,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "\u2026You get tired of it?"
+    text: "\u201C\u2026So. You\u2019re always quiet like this?\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1364,9 +1339,36 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026All the time."
+    text: "\u201C\u2026It\u2019s easier that way. People don\u2019t expect much from
+      you.\u201D"
+    voiceClip: {fileID: 8300000, guid: ad41b2297eca09040b0ed26ddaebdd2e, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Kairi
+    text: "\u201C\u2026You get tired of it?\u201D"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
+    characterObject: {fileID: 1559172642}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
+  - speaker: Julius
+    text: "\u201C\u2026All the time.\u201D"
     voiceClip: {fileID: 8300000, guid: 2d59b982932b8b24bb1a11bc35930bfc, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1380,10 +1382,10 @@ MonoBehaviour:
     text: They stop at a vending machine. Kairi buys two drinks and wordlessly tosses
       him one.
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 1309254909}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1391,9 +1393,9 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026Thanks."
+    text: "\u201C\u2026Thanks.\u201D"
     voiceClip: {fileID: 8300000, guid: 703167ba0c5e99d4bb7c4a796539800b, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1404,12 +1406,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "Don\u2019t get used to it. I\u2019m too broke for generosity."
+    text: "\u201CDon\u2019t get used to it. I\u2019m too broke for generosity.\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1417,9 +1419,9 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026You\u2019re not as scary as you act."
+    text: "\u201C\u2026You\u2019re not as scary as you act.\u201D"
     voiceClip: {fileID: 8300000, guid: a0046b2f93735a54b9458fff8969e699, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1430,12 +1432,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "Wh\u2011What the hell does that mean?!"
+    text: "\u201CWh\u2011What the hell does that mean?!\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1443,10 +1445,10 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026You act like you want to be invisible. But you still talk to people
-      like me."
+    text: "\u201C\u2026You act like you want to be invisible. But you still talk
+      to people like me.\u201D"
     voiceClip: {fileID: 8300000, guid: 089d0a97872d3884fa931cf9068e18c1, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1457,12 +1459,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "\u2026Yeah, well. I thought we could be invisible together."
+    text: "\u201C\u2026Yeah, well. I thought we could be invisible together.\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1473,10 +1475,10 @@ MonoBehaviour:
     text: "A pause. They look at each other for a moment. He\u2019s not smiling,
       but his expression is soft. Open."
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 1309254909}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1484,9 +1486,9 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026I wouldn\u2019t mind that."
+    text: "\u201C\u2026I wouldn\u2019t mind that.\u201D"
     voiceClip: {fileID: 8300000, guid: 34747bd01e556f240942cb10ca89fd02, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1499,7 +1501,7 @@ MonoBehaviour:
   - speaker: 
     text: That night, Kairi receives a message on her phone from an unknown number.
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 5435209892939362672, guid: 8c8a46be97ee0324ead25f633119a7a3, type: 3}
     characterObject: {fileID: 0}
@@ -1510,9 +1512,9 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "Hey. Thanks for today. I\u2026 had fun. Hope that\u2019s not weird."
+    text: "\u201CHey. Thanks for today. I\u2026 had fun. Hope that\u2019s not weird.\u201D"
     voiceClip: {fileID: 8300000, guid: a09f0267c047936489dde5e185493584, type: 3}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 5435209892939362672, guid: 8c8a46be97ee0324ead25f633119a7a3, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1525,10 +1527,10 @@ MonoBehaviour:
   - speaker: Inner Kairi
     text: "\u2026Oh."
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -9033898464212752457, guid: a335f61ef595c6840935488002cafcce, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1536,12 +1538,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: Yeah. It was surprisingly fun.
+    text: "\u201CYeah. It was surprisingly fun.\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 5435209892939362672, guid: 8c8a46be97ee0324ead25f633119a7a3, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1553,7 +1555,7 @@ MonoBehaviour:
       helps Kairi with coding logic for the RPG prototype. Herric is slouched in
       a chair nearby, snacking. Louis enters, watching the duo work.
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 0}
@@ -1564,9 +1566,9 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Louis
-    text: Wow, look at you two. Getting serious, huh?
+    text: "\u201CWow, look at you two. Getting serious, huh?\u201D"
     voiceClip: {fileID: 8300000, guid: c0585a5ff881f3b419f6ee77f2578566, type: 3}
-    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 2065734138}
@@ -1577,12 +1579,13 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: "\u2026We\u2019re just being productive for once. Don\u2019t ruin it."
+    text: "\u201C\u2026We\u2019re just being productive for once. Don\u2019t ruin
+      it.\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 2065734138}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1590,8 +1593,8 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Julius
-    text: "\u2026She\u2019s actually good at this. She just\u2026 doesn\u2019t realize
-      it."
+    text: "\u201C\u2026She\u2019s actually good at this. She just\u2026 doesn\u2019t
+      realize it.\u201D"
     voiceClip: {fileID: 8300000, guid: 7f548364ee7ae4d4da2019c103245b4d, type: 3}
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
@@ -1606,10 +1609,10 @@ MonoBehaviour:
   - speaker: Inner Kairi
     text: "Huh. That\u2019s the first compliment I\u2019ve gotten in a while\u2026"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1619,10 +1622,10 @@ MonoBehaviour:
   - speaker: Inner Kairi
     text: "And for some reason, it doesn\u2019t make me cringe."
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1559172642}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1630,7 +1633,7 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Louis
-    text: "Well, keep at it. I\u2019ll catch up soon."
+    text: "\u201CWell, keep at it. I\u2019ll catch up soon.\u201D"
     voiceClip: {fileID: 8300000, guid: cb4451a7aa6dc38408b83fcc7bc57472, type: 3}
     musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
     sfxClip: {fileID: 0}
@@ -1646,10 +1649,10 @@ MonoBehaviour:
     text: He strolls out, but his eyes linger just a second longer than normal before
       he goes. Herric watches him go, then gives Kairi a sideways glance.
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 2065734138}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1657,9 +1660,9 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Herric
-    text: "\u2026That guy gives me weird vibes sometimes."
+    text: "\u201C\u2026That guy gives me weird vibes sometimes.\u201D"
     voiceClip: {fileID: 8300000, guid: 90e7ecaeb5ddb51468e98c9cd0898521, type: 3}
-    musicClip: {fileID: 8300000, guid: 14596be9a129ae9488510e5e0214ec34, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 1058525407}
@@ -1670,12 +1673,12 @@ MonoBehaviour:
     nextLineIndices: 
     goToSceneName: 
   - speaker: Kairi
-    text: Yeah, well. So do I.
+    text: "\u201CYeah, well. So do I.\u201D"
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 0}
+    characterObject: {fileID: 1058525407}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1686,7 +1689,7 @@ MonoBehaviour:
     text: "They all return to working, and for the first time in a while, Kairi doesn\u2019t
       feel completely out of place."
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
+    musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
     characterObject: {fileID: 0}
