@@ -1125,7 +1125,7 @@ MonoBehaviour:
     goToSceneName: 
   - speaker: Kairi
     text: '"...Yeah?"'
-    voiceClip: {fileID: 8300000, guid: 0b48325ee6dac5e4c8bfb1e51740b18f, type: 3}
+    voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8288426215254106694, guid: 8976ad684152ba741a2c3681b288a181, type: 3}
