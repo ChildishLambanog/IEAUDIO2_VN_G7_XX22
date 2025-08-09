@@ -779,7 +779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31, y: -13}
+  m_AnchoredPosition: {x: -0.000005722, y: -29}
   m_SizeDelta: {x: 1266.7932, y: 162.6725}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &755454424
@@ -802,8 +802,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u201CSometimes, the greatest games start as side quests. And sometimes,
-    the best endings\u2026 are just new beginnings.\u201D"
+  m_text: 'END OF CHAPTER 3
+
+    "The Final Build"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -868,7 +869,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -339.1781, z: -144.94788, w: -78.27191}
+  m_margin: {x: 0, y: -2.7222672, z: -4.1484375, w: 2.184929}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1293,6 +1294,32 @@ MonoBehaviour:
     choices: []
     nextLineIndices: 
     goToSceneName: MainMenu
+  - speaker: 
+    text: "\u201CSometimes, the greatest games start as side quests.\u201D"
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 0}
+    characterObject: {fileID: 687342304}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: MainMenu
+  - speaker: 
+    text: "\"And sometimes, the best endings\u2026 are just new beginnings.\u201D "
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 0}
+    characterObject: {fileID: 687342304}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: Credits
   speakerText: {fileID: 367268308}
   dialogueText: {fileID: 571751300}
   voiceAudioSource: {fileID: 1727082476}

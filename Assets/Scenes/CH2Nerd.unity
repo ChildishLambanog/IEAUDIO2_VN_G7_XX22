@@ -804,7 +804,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: END OF PROLOGUE
+  m_text: 'END OF CHAPTER 2
+
+    "Save Point"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1684,7 +1686,7 @@ MonoBehaviour:
     jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
-    goToSceneName: 
+    goToSceneName: CH3Nerd
   - speaker: 
     text: "They all return to working, and for the first time in a while, Kairi doesn\u2019t
       feel completely out of place."
@@ -1698,7 +1700,7 @@ MonoBehaviour:
     jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
-    goToSceneName: 
+    goToSceneName: CH3Nerd
   speakerText: {fileID: 367268308}
   dialogueText: {fileID: 571751300}
   voiceAudioSource: {fileID: 1727082476}
@@ -3188,7 +3190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4061006292525408688, guid: 23c1b419080681343a3696d4b782af68, type: 3}
+  m_Sprite: {fileID: 675923346562337232, guid: 8d753c7a745170f42a3609a7a008caa3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3215,7 +3217,7 @@ RectTransform:
   m_GameObject: {fileID: 2065734138}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9200001, y: 0.9200001, z: 0.9200001}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 562282101}
@@ -3223,7 +3225,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 873, y: -30.72}
-  m_SizeDelta: {x: 512, y: 768}
+  m_SizeDelta: {x: 800, y: 1050}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2111764301
 GameObject:
