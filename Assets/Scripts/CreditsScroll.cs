@@ -4,80 +4,37 @@ using System.Collections;
 
 public class CreditsScroll : MonoBehaviour
 {
-    [Header("Scrolling")]
-    public RectTransform creditsTransform;   // The content to scroll
-    public float scrollSpeed = 50f;
-    public float fastScrollMultiplier = 2f;
+    public float scrollSpeed = 20f;        // Normal scroll speed
+    public float fastScrollSpeed = 60f;    // Speed when space is held
+    public float stopTimeAfterCredits = 2f; // Seconds to wait before loading menu
+    public string mainMenuSceneName = "MainMenu"; // Scene to return to
 
-    [Header("Fade Settings")]
-    public CanvasGroup fadeCanvasGroup;      // Black fade overlay
-    public float fadeDuration = 1f;
+    public float endYPosition = 1000f; // Y position at which credits are considered "finished"
 
-    [Header("End Settings")]
-    public float endWaitTime = 2f;
-    public string mainMenuSceneName = "MainMenu";
-
-    private bool isFadingOut = false;
-    private float startY;
-    private float endY;
     private bool creditsFinished = false;
-
-    void Start()
-    {
-        // Fade in from black
-        fadeCanvasGroup.alpha = 1f;
-        StartCoroutine(Fade(0f, fadeDuration));
-
-        // Calculate start/end Y positions
-        startY = creditsTransform.anchoredPosition.y;
-        float viewportHeight = ((RectTransform)creditsTransform.parent).rect.height;
-        endY = creditsTransform.sizeDelta.y - viewportHeight;
-    }
 
     void Update()
     {
-        if (creditsFinished || isFadingOut) return;
-
-        float speed = scrollSpeed;
-        if (Input.GetKey(KeyCode.Space))
+        if (!creditsFinished)
         {
-            speed *= fastScrollMultiplier;
-        }
+            // Check if space is held for fast scrolling
+            float currentSpeed = Input.GetKey(KeyCode.Space) ? fastScrollSpeed : scrollSpeed;
 
-        creditsTransform.anchoredPosition += Vector2.up * speed * Time.deltaTime;
+            // Move credits upward in local space
+            transform.Translate(Vector3.up * currentSpeed * Time.deltaTime);
 
-        // Check if we reached the end
-        if (creditsTransform.anchoredPosition.y >= endY)
-        {
-            creditsFinished = true;
-            StartCoroutine(HandleCreditsEnd());
+            // If credits pass the end Y position, stop
+            if (transform.position.y >= endYPosition)
+            {
+                creditsFinished = true;
+                StartCoroutine(ReturnToMenuAfterDelay());
+            }
         }
     }
 
-    private IEnumerator HandleCreditsEnd()
+    private System.Collections.IEnumerator ReturnToMenuAfterDelay()
     {
-        yield return new WaitForSeconds(endWaitTime);
-
-        // Fade out
-        isFadingOut = true;
-        yield return Fade(1f, fadeDuration);
-
-        // Load main menu
+        yield return new WaitForSeconds(stopTimeAfterCredits);
         SceneManager.LoadScene(mainMenuSceneName);
-    }
-
-    private IEnumerator Fade(float targetAlpha, float duration)
-    {
-        float startAlpha = fadeCanvasGroup.alpha;
-        float t = 0f;
-
-        while (t < duration)
-        {
-            t += Time.deltaTime;
-            fadeCanvasGroup.alpha = Mathf.Lerp(startAlpha, targetAlpha, t / duration);
-            yield return null;
-        }
-
-        fadeCanvasGroup.alpha = targetAlpha;
     }
 }
