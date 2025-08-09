@@ -955,7 +955,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -968,7 +968,7 @@ MonoBehaviour:
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1021,7 +1021,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1048,7 +1048,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1061,7 +1061,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1088,7 +1088,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1114,7 +1114,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1169,7 +1169,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1195,7 +1195,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1208,7 +1208,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1249,7 +1249,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1276,7 +1276,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1330,7 +1330,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1356,7 +1356,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1409,7 +1409,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1435,7 +1435,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1462,7 +1462,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 6894999169920593895, guid: 44e203b44847c5943997c17b90e13033, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1502,7 +1502,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 5435209892939362672, guid: 8c8a46be97ee0324ead25f633119a7a3, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1528,7 +1528,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -9033898464212752457, guid: a335f61ef595c6840935488002cafcce, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1541,7 +1541,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 5435209892939362672, guid: 8c8a46be97ee0324ead25f633119a7a3, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1582,7 +1582,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1609,7 +1609,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1622,7 +1622,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 8389134475083476877, guid: 4763b1a284a12424b8281cb62e2d993e, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -1675,7 +1675,7 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 6b81a87a3a10cb9409f81ca9b28d5b8b, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -2410997881483334952, guid: fea82da9c4e92f645870965bcf117e48, type: 3}
-    characterObject: {fileID: 938225218}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
@@ -2497,7 +2497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1309254910
 RectTransform:
   m_ObjectHideFlags: 0

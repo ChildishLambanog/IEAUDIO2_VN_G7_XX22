@@ -2105,7 +2105,7 @@ MonoBehaviour:
   - speaker: Herric
     text: "\u201CIt\u2019s been a while huh? Glad to see you haven\u2019t changed
       a bit\u201D "
-    voiceClip: {fileID: 0}
+    voiceClip: {fileID: 8300000, guid: 6bf330cca8043c44e9b5fd134f7a4b72, type: 3}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
@@ -2439,20 +2439,6 @@ MonoBehaviour:
     choices: []
     nextLineIndices: 
     goToSceneName: CH1S2
-  - speaker: Herric
-    text: "\u201CHmmm\u2026 Fine, you can head back to the classroom first to rest.
-      I\u2019ll go get you something to drink and catch up\u201D "
-    voiceClip: {fileID: 8300000, guid: 05dd239f791d415478a2d6112079f8fb, type: 3}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 3465286685962602723, guid: 73f30c939b6d437498bb89577780e72d, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: CH1S2
   - speaker: 
     text: "I shuffle back to the classroom, weaving through the still\u2011noisy
       club fair. When I finally slide the door open, I\u2019m greeted by the relative
@@ -2573,20 +2559,6 @@ MonoBehaviour:
     choices: []
     nextLineIndices: 
     goToSceneName: CH1S2
-  - speaker: 
-    text: "I rest my cheek against the cool surface of my desk, eyes half\u2011lidded
-      as my thoughts start to drift\u2026 "
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: 4113829005332862926, guid: 9d5f700a7e5e10c45aae6cdac6ecc17c, type: 3}
-    characterObject: {fileID: 0}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: CH1S2
   - speaker: ???
     text: "\u201C\u2026Hey.\u201D "
     voiceClip: {fileID: 8300000, guid: 76228315a2b456743bc25b7ef9f37b14, type: 3}
@@ -2629,20 +2601,6 @@ MonoBehaviour:
     goToSceneName: CH1S2
   - speaker: Kairi
     text: "\"\u2026I might have. What\u2019s it to you?\u201D "
-    voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
-    sfxClip: {fileID: 0}
-    backgroundImage: {fileID: -5099292496197868168, guid: cff47f526f09d084c80172d235935adf, type: 3}
-    characterObject: {fileID: 954794059}
-    isChoice: 0
-    isEndOfBranch: 0
-    jumpToLineIndex: -1
-    choices: []
-    nextLineIndices: 
-    goToSceneName: CH1S2
-  - speaker: Julius
-    text: "\u201C\u2026Nothing. Just\u2026 you, uh\u2026 mentioned games earlier.
-      In your intro.\u201D "
     voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
@@ -3005,14 +2963,27 @@ MonoBehaviour:
     choices: []
     nextLineIndices: 
     goToSceneName: CH1S2
-  - speaker: 
-    text: "We head back down to the fair booths. My feet already feel heavy. Flyers
-      are still taped to every surface: Art Club, Volleyball, Drama, and then\u2026 "
+  - speaker: Inner Kairi
+    text: "\u2026Game Dev Club. Hmmm\u2026 That one actually didn\u2019t sound that
+      awful earlier. "
     voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
-    sfxClip: {fileID: 8300000, guid: 8ffb94cf4f8e9b948aa73550da373be9, type: 3}
-    backgroundImage: {fileID: 7028616704906629411, guid: a75d8644be073904e9a14499b1b71eb2, type: 3}
-    characterObject: {fileID: 1848088761}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4130640169021434097, guid: cf65b02b246da4347acd9374151d0bd4, type: 3}
+    characterObject: {fileID: 0}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: CH1S2
+  - speaker: Inner Kairi
+    text: Hmmm... Who should I talk to?
+    voiceClip: {fileID: 0}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 4130640169021434097, guid: cf65b02b246da4347acd9374151d0bd4, type: 3}
+    characterObject: {fileID: 0}
     isChoice: 0
     isEndOfBranch: 0
     jumpToLineIndex: -1
