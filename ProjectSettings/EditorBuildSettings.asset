@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CH1S2.unity
     guid: bd955d7859659ae4ba5620d297d9d063
+  - enabled: 1
+    path: Assets/Scenes/CH1 CHF.unity
+    guid: 18076520173dd2546871fe83d2414d32
+  - enabled: 1
+    path: Assets/Scenes/CH1 Nerd.unity
+    guid: cda0dd4d0b159ac4687978ee03c41e73
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

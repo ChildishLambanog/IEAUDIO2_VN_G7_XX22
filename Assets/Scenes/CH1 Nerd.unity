@@ -1871,7 +1871,7 @@ MonoBehaviour:
     jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
-    goToSceneName: 
+    goToSceneName: CH2Nerd
   speakerText: {fileID: 367268308}
   dialogueText: {fileID: 571751300}
   voiceAudioSource: {fileID: 1727082476}
