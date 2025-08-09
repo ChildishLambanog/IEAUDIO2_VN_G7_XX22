@@ -861,7 +861,7 @@ MonoBehaviour:
     text: "Our game\u2019s almost done. Weird\u2026 It\u2019s only been a few weeks,
       but everything feels different now. Or maybe... it\u2019s just him. "
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 9e11408ee9c22d541b74924734b21c36, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 4349915267927364619, guid: 7dabdd298f8380745beaceee76e57849, type: 3}
     characterObject: {fileID: 0}
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   - speaker: Julius
     text: "\u201CHey. Do you remember your first day?\u201D "
     voiceClip: {fileID: 8300000, guid: 0b48325ee6dac5e4c8bfb1e51740b18f, type: 3}
-    musicClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 4349915267927364619, guid: 7dabdd298f8380745beaceee76e57849, type: 3}
     characterObject: {fileID: 1559172642}
@@ -1629,7 +1629,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.06
@@ -2217,7 +2217,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.7
@@ -2500,7 +2500,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.217

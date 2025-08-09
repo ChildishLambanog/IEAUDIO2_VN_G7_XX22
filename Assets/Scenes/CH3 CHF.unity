@@ -937,7 +937,7 @@ MonoBehaviour:
     text: "The Game Dev Club felt different these days. Not in a bad way\u2014just\u2026
       more alive. More ours. "
     voiceClip: {fileID: 0}
-    musicClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 14596be9a129ae9488510e5e0214ec34, type: 3}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: -6270953770400647376, guid: 3ca438977acc4414abe8c2afe897fa9c, type: 3}
     characterObject: {fileID: 0}
@@ -1675,7 +1675,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.06
@@ -2263,7 +2263,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.7
@@ -2546,7 +2546,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_Resource: {fileID: 8300000, guid: aeea271e815253e4a89bc2016109ee86, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.217

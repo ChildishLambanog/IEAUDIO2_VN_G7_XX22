@@ -9,9 +9,26 @@ public class CreditsScroll : MonoBehaviour
     public float stopTimeAfterCredits = 2f; // Seconds to wait before loading menu
     public string mainMenuSceneName = "MainMenu"; // Scene to return to
 
+    public AudioClip bgm;
+
+    private AudioSource audioSource;
     public float endYPosition = 1000f; // Y position at which credits are considered "finished"
 
     private bool creditsFinished = false;
+
+    void Start()
+    {
+        // Create an AudioSource dynamically if not already present
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.clip = bgm;
+       
+
+        // Play BGM
+        if (bgm != null)
+        {
+            audioSource.Play();
+        }
+    }
 
     void Update()
     {
