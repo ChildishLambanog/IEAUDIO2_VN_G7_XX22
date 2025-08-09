@@ -5,13 +5,13 @@ public class MenuStuff : MonoBehaviour
 
     public AudioClip bgm;
 
-    private AudioSource audioSource;
+    public AudioSource audioSource;
 
     void Start()
     {
         // Create an AudioSource dynamically if not already present
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.clip = bgm;
+        //audioSource = gameObject.AddComponent<AudioSource>();
+        //audioSource.clip = bgm;
 
 
         // Play BGM
