@@ -1737,6 +1737,20 @@ MonoBehaviour:
     choices: []
     nextLineIndices: 
     goToSceneName: 
+  - speaker: Herric
+    text: "\u201CNot really. But if you\u2019re joining something, guess I\u2019d
+      better tag along.\u201D "
+    voiceClip: {fileID: 8300000, guid: 0e9e95fe7eb51d94d8e569892bec67aa, type: 3}
+    musicClip: {fileID: 0}
+    sfxClip: {fileID: 0}
+    backgroundImage: {fileID: 7028616704906629411, guid: a75d8644be073904e9a14499b1b71eb2, type: 3}
+    characterObject: {fileID: 6761640054172504526}
+    isChoice: 0
+    isEndOfBranch: 0
+    jumpToLineIndex: -1
+    choices: []
+    nextLineIndices: 
+    goToSceneName: 
   - speaker: Kairi
     text: "\u201C\u2026What? Why?\u201D "
     voiceClip: {fileID: 0}
@@ -1792,7 +1806,7 @@ MonoBehaviour:
     goToSceneName: 
   - speaker: 
     text: 'He nods toward the Game Dev Club booth. '
-    voiceClip: {fileID: 8300000, guid: 61df87b2948b41740876c9a56aae77f7, type: 3}
+    voiceClip: {fileID: 0}
     musicClip: {fileID: 0}
     sfxClip: {fileID: 0}
     backgroundImage: {fileID: 7028616704906629411, guid: a75d8644be073904e9a14499b1b71eb2, type: 3}
@@ -1843,7 +1857,7 @@ MonoBehaviour:
     jumpToLineIndex: -1
     choices: []
     nextLineIndices: 
-    goToSceneName: 
+    goToSceneName: CH2 CHF
   speakerText: {fileID: 367268308}
   dialogueText: {fileID: 571751300}
   voiceAudioSource: {fileID: 1727082476}
