@@ -13,4 +13,10 @@ public class MenuStuff : MonoBehaviour
         Debug.Log("Quit Game");
         Application.Quit();
     }
+
+    public void Credits()
+    {
+        Debug.Log("Quit Game");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Credits");
+    }
 }
